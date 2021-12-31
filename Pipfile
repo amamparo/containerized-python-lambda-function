@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-dotenv = "*"
+injector = "*"
+boto3 = "*"
+typing-extensions = "*"
+
+[dev-packages]
+aws-cdk-core = "*"
+aws-cdk-aws-lambda = "*"
+aws-cdk-aws-iam = "*"
+aws-cdk-aws-events = "*"
+aws-cdk-aws-events-targets = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.9"
